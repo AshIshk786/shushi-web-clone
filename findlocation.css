@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Italianno&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Prata&display=swap');
+.root
+{
+    --red-color:#ed2327;
+    --chechbox:var(--chechbox)
+}
+
+*
+{margin: 0;
+    padding: 0;
+}
+
+.findlocation
+{
+    display: flex;
+    background-color: #000;
+    margin-top: 90px;
+    height: 96vh;
+
+}
+.findlocation_container
+{
+    width: 40%;
+    display: flex;
+    color: aqua;
+    height: 85vh;
+    justify-content: center;
+    /* border: 2px solid rgb(30, 0, 255); */
+    box-shadow: 0 0 25px rgba(228, 149, 149, 0.715);
+}
+.findlocation_container h2{
+    
+    font-size: 52px;
+    text-align: center;
+   width: 100%;
+   align-items: center;
+   display: flex;
+   margin: 68px 30px 12px ;
+    top: 40px;
+    font-weight: 400;
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Bebas Neue", sans-serif;
+   
+}
+
+.location_text
+{
+    text-transform: uppercase;
+}
+
+.location_text input
+{
+    height: 55px;
+    text-align: center;
+    width: 350px;
+    border: inset 32px solid black;
+    padding: 8px 34px;
+    margin: 0 15px 0  ;
+    border-radius: 15px;
+
+}
+.advanced-search-header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 22px;
+   
+}
+.serve_btn
+{
+    margin: 10px;
+font-size: 19px;
+text-align: center;
+font-weight: 600;
+text-decoration: none;
+padding: 12px 22px;
+color: #FFFFFF;
+background-color: #f32a2a;
+border-radius: 50px;
+text-shadow: 0 0 15px  rgba(199, 165, 165, 0.79);
+box-shadow: 2px 1px 8px #ed2326b6;
+}
+.btn-test
+{
+padding: 19px 22px;
+border-radius: 18px;
+border: 2px solid white;
+}
+.search-all-location
+{
+    display: flex;
+}
+.search-all-location a:nth-child(1)
+{
+border: 2px solid red;
+font-size: 15px;
+padding: 8px 30px;
+border-radius: 60px;
+color: #ffffff;
+font-family: "Lato", sans-serif;
+transition: 0.3s;
+margin: 14px 39px;
+cursor: pointer;
+}
+.search-all-location a:nth-child(1):hover
+{
+    text-shadow: 0 0 55px 15px  #ed2327;
+    background-color: #FFFFFF;
+    color: #ed2327;
+}
+.search-all-location a:nth-child(2)
+{
+border: 2px solid red;
+font-size: 15px;
+border-radius: 60px;
+color: #ffffff;
+font-family: "Lato regular", sans-serif;
+transition: 0.3s;
+margin: 14px 39px;
+text-shadow: 0 0 15px  rgba(191, 17, 17, 0.79);
+padding: 8px 20px;
+background-color: #f32a2a;
+cursor: pointer;
+}
+#advanced-search
+{
+    margin-top: 55px;
+    height: 480px;
+    width: 600px;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: #232323;
+    color: WHITE;
+}
+
+.advanced_search_open_close_container_selector
+{
+    display: block;
+    margin: 12px 25px;
+    height: 45px;
+    width: 90%;
+    font-size: 19px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #232323;
+}
+
+
+.single_filter {
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 25px;
+    width: 25%; /* Each label takes up 25% of the width */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+
+.single_filter input
+{
+    height:20px;
+    margin: 0;
+    width: 20px;
+}
+.store_locator{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.store_locator_filter_checkbox
+{
+    height: 12px;
+}
+.store-locator-row {
+    width: 100%;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.label-input-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ----------------------map--------------------------------- */
+.map
+{
+    width: 68%;
+    height: 85vh;
+   
+    box-shadow: 0 0 25px white;
+}

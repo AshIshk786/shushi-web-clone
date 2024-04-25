@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>rashushi</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="apple-touch-icon" sizes="76x76"
+            href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg"
+            color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="neighbour">
+                <a href="#" class="location">Click here to find neighbourhood RA
+                    shsuhi</a>
+
+            </div>
+
+            <!-----------------------navbar ------------------ -->
+            <header>
+                <section class="mainheader">
+                    <div class="content">
+                        <div class="logocontainer">
+                            <a href="#"><img
+                                    src="image/content_image/ra-sushi-logo.png"></a>
+                        </div>
+
+                        <div>
+                            <nav class="navbardata">
+                                <ul class="nav-ul">
+                                    <li><a href="#" class="main_menu"
+                                            onmouseover="toggleMenu(true)"
+                                            onmouseout="toggleMenu(false)">MENU</a></li>
+                                    <li><a href="findlocation.html">FIND
+                                            US</a></li>
+                                    <li><a href="#">THE HOOK UP </a></li>
+                                    <li><a href="#">GALLERY</a></li>
+                                    <li><a href="#">GIFT CARDS</a></li>
+                                    <li><a href="#">CAREERS</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="serving_container">
+                            <a href="" class="serve_btn test"
+                                id="reserve">RESERVATION</a>
+                            <a href="#" class="serve_btn" id="catering">ORDER
+                                ONLINE </a>
+                            <a href="login.html" class="serve_bt" style="color: #ffffff; margin-left: 45PX;font-size: 20PX; ">
+                                <i class="fa-regular fa-user"></i> LOGIN</a>
+                        </div>
+                    </div>
+                </section>
+            </header>
+            <!-- ===========================navbar========================= -->
+            <!--------------------------------------------------menu------------------------------------------ -->
+            <section class="menu_container" id="menuContainer"
+                onmouseover="toggleMenu(true)" onmouseout="toggleMenu(false)"
+                style="display: none;">
+                <footer class="menu">
+                    <div class="menu_table_row">
+                        <div class="menu-col">
+
+                            <h4>Menu</h4>
+                            <img class="lazy loaded"
+                                src="https://rasushi.com/wp-content/uploads/2023/10/menu-nav-thumb-10111.jpg"
+                                data-src="https://rasushi.com/wp-content/uploads/2023/10/menu-nav-thumb-10111.jpg"
+                                alt="Food Image" aria-hidden="true"
+                                data-was-processed="true">
+                            <ul>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Sushi</a></li>
+
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Lunch</a></li>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Shareables</a></li>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Soups and Salads</a></li>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Entrees</a></li>
+
+                            </ul>
+                        </div>
+                        <hr class="vertical-line">
+
+                        <div class="menu-col" id="nonimg">
+
+                            <img class="lazy loaded"
+                                src="https://rasushi.com/wp-content/uploads/2023/10/menu-nav-thumb-sashimi-assort.jpg"
+                                data-src="https://rasushi.com/wp-content/uploads/2023/10/menu-nav-thumb-sashimi-assort.jpg"
+                                aria-hidden="true" alt="Food Image"
+                                data-was-processed="true">
+                            <ul>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Desserts</a></li>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        "RA"men</a></li>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Lifestyle</a></li>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Catering</a></li>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Happy hour</a></li>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Beverages</a></li>
+                                <li role="menuitem"><a href="#" tabindex="0"><i
+                                            class="fas fa-caret-right"></i>
+                                        Concession/a></li>
+
+                                </ul>
+                            </div>
+                            <hr class="vertical-line">
+                            <div class="menu-col">
+                                <h4>The Bar</h4>
+                                <img class="lazy loaded"
+                                    src="https://rasushi.com/wp-content/uploads/2023/10/menu-nav-thumb-sake-sangria.jpg"
+                                    data-src="https://rasushi.com/wp-content/uploads/2023/10/menu-nav-thumb-sake-sangria.jpg"
+                                    alt="Drinks Image" aria-hidden="true"
+                                    data-was-processed="true">
+                                <ul>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Cocktails</a></li>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Sake</a></li>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Beer</a></li>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Wine</a></li>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Seasonal specials</a></li>
+
+                                </ul>
+                            </div>
+                            <hr class="vertical-line">
+                            <div class="menu-col">
+                                <h4>nutritional imformation</h4>
+                                <ul>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Food</a></li>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Catering</a></li>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            beverages</a></li>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Dignity Health sports park</a></li>
+
+                                </ul>
+                                <h4>Concessional Nutritions</h4>
+                                <ul>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Food</a></li>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Catering</a></li>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            beverages</a></li>
+                                    <li role="menuitem"><a href="#"
+                                            tabindex="0"><i
+                                                class="fas fa-caret-right"></i>
+                                            Dignity Health sports park</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </footer>
+
+                </section>
+
+                <!-- <script>
+    var menuContainer = document.getElementById("menuContainer");
+    var menu = document.querySelector("main_menu");
+
+    menu.addEventListener("mouseover", event=>
+    {
+        console.log("done")
+
+    });
+
+    // function toggleMenu() {
+    //     if (menuContainer.style.display === "none") {
+    //         menuContainer.style.display = "block";
+    //     } else {
+    //         menuContainer.style.display = "none";
+    //     }
+    // }
+</script> -->
+                <script>
+    function toggleMenu() {
+        var menuContainer = document.getElementById("menuContainer");
+        if (menuContainer.style.display === "block") {
+            menuContainer.style.display = "none";
+        } else {
+            menuContainer.style.display = "block";
+        }
+    }
+    // var isMenuHovered = false;
+
+    // function toggleMenu(show) {
+    //     var menuContainer = document.getElementById("menuContainer");
+    //     if (show || isMenuHovered) {
+    //         menuContainer.style.display = "block";
+    //         isMenuHovered = true;
+    //     } else {
+    //         menuContainer.style.display = "none";
+    //         isMenuHovered = false;
+    //     }
+    // }
+</script>
+
+                <!-- ---------------------------slider------------------------- -->
+                <section class="main-slider">
+                    <div class="wrapper">
+                        <div class="slider active">
+                            <img src="image/content_image/slide1.jpg" alt>
+                            <div class="slidercontent">
+                                <div class="slidercontent-box">
+                                    <div
+                                        style="background: rgba(0,0,0,.85)!important; padding: 25px;">
+                                        <div class="sliderTitle">LET MOM KNOW
+                                            HOW <span>“RA”WESOME </span>SHE
+                                            IS.</div>
+                                        <p>OFFER AVAILABLE 4/9/24 – 5/12/24<br>
+                                            PROMOTIONAL CARDS VALID 5/13/24 –
+                                            6/23/24</p>
+                                        <a
+                                            href="https://rasushi.cashstar.com/store/recipient?classicGift=true&amp;locale=en-us"
+                                            class="serve_btn" target="_blank"
+                                            style="margin-right: 6px; ">ORDER
+                                            GIFT CARDS</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <img src="image/content_image/slide2.jpg" alt>
+                            <div class="slidercontent">
+                                <div class="slidercontent-box">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <img src="image/content_image/slide3.jpg" alt>
+                            <div class="slidercontent">
+                                <div class="slidercontent-box">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <img src="image/content_image/slide4.jpg" alt>
+                            <div class="slidercontent">
+                                <div class="slidercontent-box">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <img src="image/content_image/slide5.jpg" alt>
+                            <div class="slidercontent">
+                                <div class="slidercontent-box">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <img src="image/content_image/slide6.jpg" alt>
+                            <div class="slidercontent">
+                                <div class="slidercontent-box">
+                                    <h1
+                                        style="color: white;font-size: 80px;">hello</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <video src="vedio/slide7.mp4" controls autoplay loop
+                                muted class="vedio"></video>
+                            <div class="slidercontent">
+                                <div class="slidercontent-box">
+                                    <h1
+                                        style="color: rgb(233, 119, 119);font-size: 80px;">RA
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidernav">
+                            <a href="#"> <img src="image/btn/prev_arrow.png"
+                                    class="prev_arrow"></a>
+                            <a href="#"> <img src="image/btn/next_arrow.png"
+                                    class="next_arrow"></a>
+                        </div>
+                    </div>
+                </section>
+                <script src="sliderjs.js"></script>
+
+                <!-- --------------------------------------reservation---------------------------------------------- -->
+                <section class="reservation">
+                    <h2>RESERVE A TABLE</h2>
+                    <div class="reservationtable">
+                        <form action id="tab_container">
+                            <select id="aria-label"
+                                aria-placeholder="please select a reservationtable">
+                                <option value="0" selected="selected">Select a
+                                    restaurant</option>
+                                <option value>RA Sushi Bar Restaurant -
+                                    Ahwatukee, AZ</option>
+                                <option value="110827">RA Sushi Bar Restaurant -
+                                    Mesa, AZ</option>
+                                <option value="110869">RA Sushi Bar Restaurant -
+                                    North Scottsdale, AZ</option>
+                                <option value="110872">RA Sushi Bar Restaurant -
+                                    Scottsdale Old Town, AZ</option>
+                                <option value="110881">RA Sushi Bar Restaurant -
+                                    Tucson, AZ</option>
+                                <option value="110812">RA Sushi Bar Restaurant -
+                                    Chino Hills, CA</option>
+                                <option value="106099">RA Sushi Bar Restaurant -
+                                    Tustin, CA</option>
+                                <option value="110914">RA Sushi Bar Restaurant -
+                                    Pembroke Pines, FL</option>
+                                <option value="106102">RA Sushi Bar Restaurant -
+                                    Lombard, IL</option>
+                                <option value="110920">RA Sushi Bar Restaurant -
+                                    Leawood, KS</option>
+                                <option value="110758">RA Sushi Bar Restaurant -
+                                    Baltimore, MD</option>
+                                <option value="144244">RA Sushi Bar Restaurant –
+                                    Times Square, NY</option>
+                                <option value="110824">RA Sushi Bar Restaurant -
+                                    Las Vegas, NV</option>
+                                <option value="190708">RA Sushi Bar Restaurant -
+                                    Austin, TX</option>
+                                <option value="157165">RA Sushi Bar Restaurant -
+                                    Addison, TX</option>
+                                <option value="110821">RA Sushi Bar Restaurant -
+                                    Houston CityCentre, TX</option>
+                                <option value="110818">RA Sushi Bar Restaurant -
+                                    Houston Highland Village, TX</option>
+                                <option value="110911">RA Sushi Bar Restaurant -
+                                    Plano, TX</option>
+                                <option value="187030">Ra Sushi Bar Restaurant -
+                                    Southlake, TX</option>
+                            </select>
+                            <select id="people_selector">
+                                <option value="1">1 person</option>
+                                <option value="2" selected="selected">2
+                                    people</option>
+                                <option value="3">3 people</option>
+                                <option value="4">4 people</option>
+                                <option value="5">5 people</option>
+                                <option value="6">6 people</option>
+                                <option value="7">7 people</option>
+                                <option value="8">8 people</option>
+                                <option value="9">9 people</option>
+                                <option value="10">10 people</option>
+                                <option value="11">11 people</option>
+                                <option value="12">12 people</option>
+                                <option value="13">13 people</option>
+                                <option value="14">14 people</option>
+                                <option value="15">15 people</option>
+                                <option value="16">16 people</option>
+                                <option value="17">17 people</option>
+                                <option value="18">18 people</option>
+                                <option value="19">19 people</option>
+                                <option value="20">20 people</option>
+                            </select>
+
+                            <input type="date" id="date_selector">
+                            <script src="date.js"></script>
+                            <select name="Select_0" id="time_selector">
+                                <option value="00:00">12:00 AM</option>
+                                <option value="00:30">12:30 AM</option>
+                                <option value="01:00">1:00 AM</option>
+                                <option value="01:30">1:30 AM</option>
+                                <option value="02:00">2:00 AM</option>
+                                <option value="02:30">2:30 AM</option>
+                                <option value="03:00">3:00 AM</option>
+                                <option value="03:30">3:30 AM</option>
+                                <option value="04:00">4:00 AM</option>
+                                <option value="04:30">4:30 AM</option>
+                                <option value="05:00">5:00 AM</option>
+                                <option value="05:30">5:30 AM</option>
+                                <option value="06:00">6:00 AM</option>
+                                <option value="06:30">6:30 AM</option>
+                                <option value="07:00">7:00 AM</option>
+                                <option value="07:30">7:30 AM</option>
+                                <option value="08:00">8:00 AM</option>
+                                <option value="08:30">8:30 AM</option>
+                                <option value="09:00">9:00 AM</option>
+                                <option value="09:30">9:30 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="10:30">10:30 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="11:30">11:30 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="12:30">12:30 PM</option>
+                                <option value="13:00">1:00 PM</option>
+                                <option value="13:30">1:30 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="14:30">2:30 PM</option>
+                                <option value="15:00">3:00 PM</option>
+                                <option value="15:30">3:30 PM</option>
+                                <option value="16:00">4:00 PM</option>
+                                <option value="16:30">4:30 PM</option>
+                                <option value="17:00">5:00 PM</option>
+                                <option value="17:30">5:30 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="18:30">6:30 PM</option>
+                                <option value="19:00" selected="selected">7:00
+                                    PM</option>
+                                <option value="19:30">7:30 PM</option>
+                                <option value="20:00">8:00 PM</option>
+                                <option value="20:30">8:30 PM</option>
+                                <option value="21:00">9:00 PM</option>
+                                <option value="21:30">9:30 PM</option>
+                                <option value="22:00">10:00 PM</option>
+                                <option value="22:30">10:30 PM</option>
+                                <option value="23:00">11:00 PM</option>
+                                <option value="23:30">11:30 PM</option>
+                            </select>
+                            <a href="#" id="table_btn">Find a Table</a>
+
+                        </form>
+                    </div>
+                </section>
+                <section class="parallex_container">
+                    <div class="parallex">
+                        <div class="parallex_content">
+                            <h1>SHUSHI<span style="color: red;"> | </span>BAR
+                                <span style="color:red;"> |
+                                </span>RESTAURANT</h1>
+                            <div class="btn">
+                                <a href="#" class="parallex_btn">FIND
+                                    LOCATION</a>
+                                <a href="#" class="parallex_btn">ORDER
+                                    ONLINE</a>
+                            </div>
+                            <h2>EXPLORE YOUR RA SIDE</h2>
+                        </div>
+                    </div>
+                </section>
+                <!----------------------------------gallery------------------------->
+
+                <section class="gallery">
+
+                    <div class="overlay">
+                        <div class="imageviewer">
+                            <span>&times;</span>
+                            <img src alt="image">;
+                        </div>
+                    </div>
+                    <div class="containerg" id="gallery">
+                        <div class="galleryItem"><img src="images/image1.jpeg"
+                                alt="image1"></div>
+                        <div class="galleryItem"><img src="images/image2.jpg"
+                                alt="image2"></div>
+                        <div class="galleryItem"><img src="images/image3.jpg"
+                                alt="image3"></div>
+                        <div class="galleryItem"><img src="images/image4.jpg"
+                                alt="image4"></div>
+                        <div class="galleryItem"><img src="images/image5.jpg"
+                                alt="image5"></div>
+                        <div class="galleryItem"><img src="images/image6.jpg"
+                                alt="image6"></div>
+                        <div class="galleryItem"><img src="images/image7.jpeg"
+                                alt="image7"></div>
+                        <div class="galleryItem"><img src="images/image8.jpg"
+                                alt="image8"></div>
+                    </div>
+                    <script src="galleryimage.js"></script>
+                </section>
+
+                <!-- --------------------------------------foooter---------------------- -->
+                <section class="footer_container">
+                    <footer class="footer">
+                        <div class="footer_block">
+                            <div class="row">
+                                <div class="footer_col">
+                                    <h4> FAMOUS RESTAURANT HUBS</h4>
+                                    <ul>
+                                        <li><a href="#">RA Sushi Bar Restaurant
+                                                - Mesa, AZ</a></li>
+                                        <li><a href="#">RA Sushi Bar Restaurant
+                                                - North Scottsdale, AZ</a></li>
+                                        <li><a href>RA Sushi Bar Restaurant -
+                                                Scottsdale Old Town, AZ</a></li>
+                                        <li><a href>RA Sushi Bar Restaurant -
+                                                Tucson, AZ</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="footer_col">
+                                    <h4>QUICK LINKS</h4>
+                                    <ul>
+                                        <li><a href="#">F.A.Q</a></li>
+                                        <li><a href="#">Cookies Policy</a></li>
+                                        <li><a href>Terms of Service</a></li>
+                                        <li><a href>Support</a></li>
+                                        <li><a href>Careers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer_col">
+                                    <h4>RATINGS</h4>
+                                    <ul>
+                                        <a href="#"><i class="fa fa-star"
+                                                style="color:gold"></i></a>
+                                        <a href="#"><i class="fa fa-star"
+                                                aria-hidden="true"
+                                                style="color:gold"></i></a>
+                                        <a href="#"><i class="fa fa-star"
+                                                aria-hidden="true"
+                                                style="color:gold"></i></a>
+                                        <a href="#"><i class="fa fa-star"
+                                                aria-hidden="true"
+                                                style="color:gold"></i></a>
+                                        <a href="#"><i class="fa fa-star-half"
+                                                style="color:gold"></i></a>
+
+                                    </ul>
+                                    <h4>SUGGESTIONS</h4>
+                                    <ul>
+                                        <textarea name id cols="30"
+                                            rows="10"></textarea>
+                                        <li>
+                                        </li>
+                                        <a href="#" class="serve_btn"
+                                            style="font-family: 'Courier New', Courier, monospace; margin:65px;">SUBMIT</a>
+
+                                    </ul>
+                                </div>
+                                <div class="footer_col">
+                                    <h4>CONTACT US </h4>
+                                    <ul class="footer_contact">
+                                        <li><a href="#"><i
+                                                    class="fa fa-volume-control-phone">
+                                                </i>0161-4595545</a></li>
+                                        <li><a href="#"><i
+                                                    class="fa fa-envelope"></i>rashushi788@gmail.com</a></li>
+
+                                        <li><a href="#"><i
+                                                    class="fab fa-telegram"></i>rashushi-hub</a></li>
+                                        <li> <a href="#"><i
+                                                    class="fa fa-address-card"></i>115
+                                                E 57th Street New York, NY
+                                                10022</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr style="margin: 10px 10%;">
+                        <h2 class="copyright">Follow Us On.........<br><br>
+
+                            <a href="#"> <i class="fab fa-instagram copyright">
+                                </i> </a>
+                            <a href="#"><i class="fab fa-facebook-f copyright">
+                                </i></a>
+                            <a href="#"><i
+                                    class="fab fa-tiktok copyright"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-x-twitter copyright"></i></a>
+                            <a href="#"><i
+                                    class="fab fa-youtube copyright"></i></a></h2>
+
+                        <h2 class=" copyright">
+                            copyright@</h2>
+                    </footer>
+                </section>
+            </div>
+        </body>
+    </html>

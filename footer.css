@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Italianno&family=Prata&display=swap');
+.footer_container
+{
+
+    background-color: rgba(33, 34, 34, 0.516);
+    height:60vh;
+
+}
+.footer{
+   height: 52vh;
+    padding: 60px 0;
+    
+}
+.footer_block
+{
+    max-width: 1570px;
+    margin: auto;
+}
+.footer_col
+{
+    width: 50%;
+    margin: 5px;
+}
+
+
+.footer_col h4
+{
+font-size: 2em;
+color: aliceblue;
+font-family: "Prata", serif;
+}
+.footer_col ul li
+{
+    list-style: none;
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-right: 50px;
+  
+ 
+}
+/* .footer_col ul li a{
+    
+    display: block;
+} */
+.footer_col ul li a:hover{
+    padding: 0 15px;
+    text-shadow: 0 0 15px rgb(212, 78, 41);
+}
+.footer_col ul li a
+{
+    color: aliceblue;
+    font-size: 20px;
+
+    text-decoration: none;
+    transition:all 0.7s ease;
+    cursor: pointer;
+    /* font-family: "Great Vibes", cursive; */
+    font-family: "Prata", serif;
+}
+
+.row
+{
+    display: flex;
+    height: 60vh;
+}
+.footer_contact a
+{
+
+    color: aliceblue;
+    display: block;
+    font-family: "Prata", serif;
+    font-size: 29px;
+}
+.footer_col ul a i
+{ margin: 12px;
+    color: aliceblue;
+}
+.i_map
+{
+    display: flex;
+    width: 100%;
+    margin-top: 0;
+    justify-content: center;
+
+}
+.copyright
+{
+       display:flex;
+    justify-content: center;
+    color: aliceblue;
+  
+}
+
+

@@ -1,0 +1,109 @@
+
+.menu
+{
+    background-color: rgba(255, 255, 255, 0.666);
+    padding: 70px 0;
+    position: absolute;
+    z-index: 101;
+    margin-left: 380px;
+   
+    opacity:1;
+}
+
+
+
+
+.menu-col ul li a:hover{
+    padding: 0 15px;
+}
+.menu-col ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+display: block;
+transition:all 0.7s ease;
+}
+.menu-col ul li:not(:last-child)
+{
+    margin-top: 10px;
+}
+.menu-col ul li
+{
+    list-style: none;
+    font-size: 15px;
+    padding: 5px;  
+}
+.menu_table_row
+{
+    display: flex;
+       flex-wrap: wrap;
+}
+.menu-col {
+    width: 18%;
+    padding: 0 15px;
+    margin: 20px;
+}
+.menu-col h4
+{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.menu-col h4::before
+{
+    content: "";
+    position: absolute;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    bottom: -10px;
+    width: 50px;
+}
+.social a
+
+{
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    background-color: black;
+    line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    color: black ;
+}
+.social a:hover
+{
+    color: blue;
+    background-color: #bbbbbb;
+}
+.copyright
+{
+    display:flex;
+    justify-content: center;
+  
+}
+.vertical-line {
+    height: 500px; /* Adjust height as needed */
+    border: none;
+    border-left: 2px solid lightgray;
+}
+#nonimg{
+    margin-top: 100px;
+}
+@media (max-width:767px) {
+    .menu-col
+    {
+        width: 50%;
+    }   
+}
+
+@media (max-width:457px) {
+    .menu-col
+    {
+        width: 100%;
+    }
+}
